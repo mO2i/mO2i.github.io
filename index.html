@@ -59,6 +59,54 @@
         .post:hover {
             transform: scale(1.05);
         }
+        {
+            <section id="guestbook">
+    <h2>📖 Guestbook</h2>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Sign Guestbook</button>
+    </form>
+</section>
+       #guestbook {
+    background: rgba(48, 30, 103, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 40px auto;
+    width: 60%;
+}
+
+#guestbook h2 {
+    font-family: 'Merriweather', serif;
+    color: #B6EADA;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background: #5B8FB9;
+    color: #03001C;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+        }
         footer {
             text-align: center;
             padding: 20px;
@@ -79,7 +127,8 @@
 <a href="blog2.html" class="post">Post 2 - Text Only</a>
 <a href="blog3.html" class="post">Post 3 - Wild Mix</a>
     </div>
-    <div class="now-playing">🎵 Now Playing: [Your Song Here] 🎵</div>
+    <div class="now-playing">🎵 Now Playing: [https://anghami.app.link/?$deeplink_path=song/791402?amplitude_device_id=fc588093-0da7-4074-82e6-b7dcc01f6897R&$ios_url=song/791402?amplitude_device_id=fc588093-0da7-4074-82e6-b7dcc01f6897R&$android_url=song/791402?amplitude_device_id=fc588093-0da7-4074-82e6-b7dcc01f6897R&$ios_deeplink_path=song/791402?amplitude_device_id=fc588093-0da7-4074-82e6-b7dcc01f6897R&$android_deeplink_path=song/791402?amplitude_device_id=fc588093-0da7-4074-82e6-b7dcc01f6897R&$fallback_url=http://anghami.com/song/791402?amplitude_device_id=fc588093-0da7-4074-82e6-b7dcc01f6897R&$canonical_url=http://anghami.com/song/791402?amplitude_device_id=fc588093-0da7-4074-82e6-b7dcc01f6897R&~campaign_id=web] 🎵</div>
+    <div class="now-playing">🎵 Now Playing: [] 🎵</div>
     <footer>
         <p>Ink and pixels—just another way to exist forever.</p>
     </footer>
