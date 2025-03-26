@@ -1,0 +1,41 @@
+/* Global Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #03001C;
+    color: #B6EADA;
+    margin: 0;
+    padding: 0;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Navbar */
+header#navbar {
+    background: rgba(48, 30, 103, 0.8);
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Blog Posts Layout */
+.grid {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+/* Guestbook */
+#guestbook {
+    padding: 20px;
+    background: #301E67;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #301E67;
+}
